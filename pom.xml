@@ -13,9 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-cisc-699</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
-		<maven.compiler.release>11</maven.compiler.release>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,7 +36,6 @@
 			<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.7.0</version>
     <configuration>
         <source>1.11</source>
         <target>1.11</target>
